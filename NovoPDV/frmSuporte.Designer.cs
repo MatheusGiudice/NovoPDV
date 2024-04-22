@@ -106,6 +106,7 @@ namespace NovoPDV
             this.btnFormulario.Text = "&Formulário de Contato";
             this.btnFormulario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.btnFormulario.UseVisualStyleBackColor = true;
+            this.btnFormulario.Click += new System.EventHandler(this.btnFormulario_Click);
             // 
             // btnWhatsApp
             // 

@@ -28,5 +28,11 @@ namespace NovoPDV
             pStart.StartInfo = new System.Diagnostics.ProcessStartInfo(@"https://wa.me/551131883334");
             pStart.Start();
         }
+
+        private void btnFormulario_Click(object sender, EventArgs e)
+        {
+            FormContato _formContato = new FormContato();
+            _formContato.ShowDialog();
+        }
     }
 }

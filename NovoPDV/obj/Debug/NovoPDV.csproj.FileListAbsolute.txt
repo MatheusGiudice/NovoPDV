@@ -11,3 +11,4 @@ C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmLogin.res
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmMenu.resources
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmLoginUsuario.resources
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmSuporte.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.FormContato.resources
