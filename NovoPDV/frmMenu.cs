@@ -50,5 +50,11 @@ namespace NovoPDV
             FormSobre _formSobre = new FormSobre();
             _formSobre.ShowDialog();
         }
+
+        private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            CadastroDeClientes _formCadastroClientes = new CadastroDeClientes();
+            _formCadastroClientes.ShowDialog();
+        }
     }
 }
