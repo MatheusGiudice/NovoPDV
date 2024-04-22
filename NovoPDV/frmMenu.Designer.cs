@@ -462,6 +462,7 @@ namespace NovoPDV
             this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
             this.sobreToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sobreToolStripMenuItem.Text = "Sobre";
+            this.sobreToolStripMenuItem.Click += new System.EventHandler(this.sobreToolStripMenuItem_Click);
             // 
             // suporteToolStripMenuItem
             // 

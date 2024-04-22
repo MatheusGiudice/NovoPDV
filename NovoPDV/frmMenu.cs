@@ -44,5 +44,11 @@ namespace NovoPDV
             frmSuporte _suporteForm = new frmSuporte();
             _suporteForm.ShowDialog();
         }
+
+        private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormSobre _formSobre = new FormSobre();
+            _formSobre.ShowDialog();
+        }
     }
 }
