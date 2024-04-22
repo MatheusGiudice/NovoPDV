@@ -1,0 +1,11 @@
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\bin\Debug\NovoPDV.exe.config
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\bin\Debug\NovoPDV.exe
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\bin\Debug\NovoPDV.pdb
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.csproj.AssemblyReference.cache
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.Properties.Resources.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.csproj.GenerateResource.cache
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.csproj.CoreCompileInputs.cache
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.exe
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.pdb
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmLogin.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmMenu.resources
