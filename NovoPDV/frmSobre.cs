@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NovoPDV
 {
-    public partial class FormSobre : Form
+    public partial class frmSobre : Form
     {
-        public FormSobre()
+        public frmSobre()
         {
             InitializeComponent();
         }

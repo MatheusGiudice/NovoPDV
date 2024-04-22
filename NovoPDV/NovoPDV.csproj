@@ -46,23 +46,41 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="CadastroDeClientes.cs">
+    <Compile Include="frmVincularNFCe.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="CadastroDeClientes.designer.cs">
-      <DependentUpon>CadastroDeClientes.cs</DependentUpon>
+    <Compile Include="frmVincularNFCe.designer.cs">
+      <DependentUpon>frmVincularNFCe.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormContato.cs">
+    <Compile Include="frmVincularSAT.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormContato.designer.cs">
-      <DependentUpon>FormContato.cs</DependentUpon>
+    <Compile Include="frmVincularSAT.designer.cs">
+      <DependentUpon>frmVincularSAT.cs</DependentUpon>
     </Compile>
-    <Compile Include="FormSobre.cs">
+    <Compile Include="frmCadastroEmpresa.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FormSobre.designer.cs">
-      <DependentUpon>FormSobre.cs</DependentUpon>
+    <Compile Include="frmCadastroEmpresa.designer.cs">
+      <DependentUpon>frmCadastroEmpresa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroClientes.designer.cs">
+      <DependentUpon>frmCadastroClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmContato.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmContato.designer.cs">
+      <DependentUpon>frmContato.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSobre.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSobre.designer.cs">
+      <DependentUpon>frmSobre.cs</DependentUpon>
     </Compile>
     <Compile Include="frmLogin.cs">
       <SubType>Form</SubType>
@@ -90,14 +108,23 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="CadastroDeClientes.resx">
-      <DependentUpon>CadastroDeClientes.cs</DependentUpon>
+    <EmbeddedResource Include="frmVincularNFCe.resx">
+      <DependentUpon>frmVincularNFCe.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormContato.resx">
-      <DependentUpon>FormContato.cs</DependentUpon>
+    <EmbeddedResource Include="frmVincularSAT.resx">
+      <DependentUpon>frmVincularSAT.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FormSobre.resx">
-      <DependentUpon>FormSobre.cs</DependentUpon>
+    <EmbeddedResource Include="frmCadastroEmpresa.resx">
+      <DependentUpon>frmCadastroEmpresa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroClientes.resx">
+      <DependentUpon>frmCadastroClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmContato.resx">
+      <DependentUpon>frmContato.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSobre.resx">
+      <DependentUpon>frmSobre.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmLogin.resx">
       <DependentUpon>frmLogin.cs</DependentUpon>

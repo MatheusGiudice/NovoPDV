@@ -1,7 +1,7 @@
 ﻿
 namespace NovoPDV
 {
-    partial class FormSobre
+    partial class frmSobre
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace NovoPDV
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormSobre));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmSobre));
             this.btnSair = new System.Windows.Forms.Button();
             this.lblVersaoSistema = new System.Windows.Forms.Label();
             this.lblFabricante = new System.Windows.Forms.Label();

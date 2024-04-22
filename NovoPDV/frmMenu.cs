@@ -47,14 +47,20 @@ namespace NovoPDV
 
         private void sobreToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            FormSobre _formSobre = new FormSobre();
+            frmSobre _formSobre = new frmSobre();
             _formSobre.ShowDialog();
         }
 
         private void clienteToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            CadastroDeClientes _formCadastroClientes = new CadastroDeClientes();
+            frmCadastroClientes _formCadastroClientes = new frmCadastroClientes();
             _formCadastroClientes.ShowDialog();
+        }
+
+        private void empresaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroEmpresa _cadastroEmpresa = new frmCadastroEmpresa();
+            _cadastroEmpresa.ShowDialog();
         }
     }
 }

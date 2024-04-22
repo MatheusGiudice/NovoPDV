@@ -1,7 +1,7 @@
 ﻿
 namespace NovoPDV
 {
-    partial class FormContato
+    partial class frmContato
     {
         /// <summary>
         /// Required designer variable.
@@ -29,7 +29,7 @@ namespace NovoPDV
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormContato));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmContato));
             this.gbTipoCliente = new System.Windows.Forms.GroupBox();
             this.rbPessoaJuridica = new System.Windows.Forms.RadioButton();
             this.rbPessoaFisica = new System.Windows.Forms.RadioButton();

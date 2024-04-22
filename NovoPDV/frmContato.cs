@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace NovoPDV
 {
-    public partial class FormContato : Form
+    public partial class frmContato : Form
     {
-        public FormContato()
+        public frmContato()
         {
             InitializeComponent();
         }

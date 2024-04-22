@@ -10,16 +10,16 @@ using System.Windows.Forms;
 
 namespace NovoPDV
 {
-    public partial class CadastroDeClientes : Form
+    public partial class frmCadastroClientes : Form
     {
-        public CadastroDeClientes()
+        public frmCadastroClientes()
         {
             InitializeComponent();
         }
 
         private void btnSair_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Deseja realmente sair ?", "Veti PDV 2.0", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (MessageBox.Show("Deseja realmente sair ?", "Veti PDV", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 this.Close();
             }

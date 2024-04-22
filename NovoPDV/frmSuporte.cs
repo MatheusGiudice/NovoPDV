@@ -31,7 +31,7 @@ namespace NovoPDV
 
         private void btnFormulario_Click(object sender, EventArgs e)
         {
-            FormContato _formContato = new FormContato();
+            frmContato _formContato = new frmContato();
             _formContato.ShowDialog();
         }
     }

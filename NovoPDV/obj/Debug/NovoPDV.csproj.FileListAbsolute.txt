@@ -11,6 +11,9 @@ C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmLogin.res
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmMenu.resources
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmLoginUsuario.resources
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmSuporte.resources
-C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.FormContato.resources
-C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.FormSobre.resources
-C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.CadastroDeClientes.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmCadastroClientes.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmContato.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmSobre.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmCadastroEmpresa.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmVincularNFCe.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmVincularSAT.resources

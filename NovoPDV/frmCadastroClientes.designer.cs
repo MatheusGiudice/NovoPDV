@@ -1,7 +1,7 @@
 ﻿
 namespace NovoPDV
 {
-    partial class CadastroDeClientes
+    partial class frmCadastroClientes
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace NovoPDV
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(CadastroDeClientes));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmCadastroClientes));
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
             this.bindingNavigatorCountItem = new System.Windows.Forms.ToolStripLabel();
             this.bindingNavigatorMoveFirstItem = new System.Windows.Forms.ToolStripButton();
