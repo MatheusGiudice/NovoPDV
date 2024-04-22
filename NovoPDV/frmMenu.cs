@@ -32,5 +32,11 @@ namespace NovoPDV
                 Application.Exit();
             }
         }
+
+        private void loginToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLoginUsuario _loginUsuario = new frmLoginUsuario();
+            _loginUsuario.ShowDialog();
+        }
     }
 }
