@@ -38,5 +38,11 @@ namespace NovoPDV
             frmLoginUsuario _loginUsuario = new frmLoginUsuario();
             _loginUsuario.ShowDialog();
         }
+
+        private void suporteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmSuporte _suporteForm = new frmSuporte();
+            _suporteForm.ShowDialog();
+        }
     }
 }

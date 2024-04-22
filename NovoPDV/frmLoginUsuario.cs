@@ -36,5 +36,28 @@ namespace NovoPDV
         {
             this.Close();
         }
+
+        private void txtSenha_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void txtSenha_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+            {
+                if (txtUsuario.Text != "admin" && txtSenha.Text != "123456")
+                {
+                    MessageBox.Show("Usuário e/ou senha incorretos ! Por favor, insira os dados novamente", "Veti PDV", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                    txtUsuario.Clear();
+                    txtSenha.Clear();
+                    txtUsuario.Focus();
+                }
+                else
+                {
+                    this.Close();
+                }
+            }
+        }
     }
 }
