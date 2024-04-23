@@ -10,35 +10,11 @@ using System.Windows.Forms;
 
 namespace NovoPDV
 {
-    public partial class frmCadastroFornecedor : Form
+    public partial class frmCadastroTransportadora : Form
     {
-        public frmCadastroFornecedor()
+        public frmCadastroTransportadora()
         {
             InitializeComponent();
-        }
-
-        private void CadastroFornecedor_Load(object sender, EventArgs e)
-        {
-            txtRazaoNome.Enabled = false;
-            txtFantasia.Enabled = false;
-            msktxtCNPJCPF.Enabled = false;
-            txtIERG.Enabled = false;
-            txtEndereco.Enabled = false;
-            txtNumero.Enabled = false;
-            txtComplemento.Enabled = false;
-            txtBairro.Enabled = false;
-            cbUF.Enabled = false;
-            txtCidade.Enabled = false;
-            msktxtCEP.Enabled = false;
-            txtEmail.Enabled = false;
-            msktxtTelefone.Enabled = false;
-            msktxtCelular.Enabled = false;
-            txtContato.Enabled = false;
-            btnExcluir.Enabled = false;
-            btnSalvar.Enabled = false;
-            chkPermCredICMS.Enabled = false;
-            chkSimplesNacional.Enabled = false;
-            txtPesquisar.Focus();
         }
 
         private void btnSair_Click(object sender, EventArgs e)
@@ -68,13 +44,33 @@ namespace NovoPDV
             txtContato.Enabled = true;
             btnExcluir.Enabled = true;
             btnSalvar.Enabled = true;
-            btnNovo.Enabled = false;
             btnImportar.Enabled = false;
+            btnNovo.Enabled = false;
             btnCancelar.Visible = true;
             btnAlterar.Enabled = false;
-            chkPermCredICMS.Enabled = true;
-            chkSimplesNacional.Enabled = true;
             txtRazaoNome.Focus();
+        }
+
+        private void CadastroTransportadora_Load(object sender, EventArgs e)
+        {
+            txtRazaoNome.Enabled = false;
+            txtFantasia.Enabled = false;
+            msktxtCNPJCPF.Enabled = false;
+            txtIERG.Enabled = false;
+            txtEndereco.Enabled = false;
+            txtNumero.Enabled = false;
+            txtComplemento.Enabled = false;
+            txtBairro.Enabled = false;
+            cbUF.Enabled = false;
+            txtCidade.Enabled = false;
+            msktxtCEP.Enabled = false;
+            txtEmail.Enabled = false;
+            msktxtTelefone.Enabled = false;
+            msktxtCelular.Enabled = false;
+            txtContato.Enabled = false;
+            btnExcluir.Enabled = false;
+            btnSalvar.Enabled = false;
+            txtPesquisar.Focus();
         }
 
         private void btnAlterar_Click(object sender, EventArgs e)
@@ -96,12 +92,10 @@ namespace NovoPDV
             txtContato.Enabled = true;
             btnExcluir.Enabled = true;
             btnSalvar.Enabled = true;
-            btnNovo.Enabled = false;
             btnImportar.Enabled = false;
+            btnNovo.Enabled = false;
             btnCancelar.Visible = true;
             btnAlterar.Enabled = false;
-            chkPermCredICMS.Enabled = true;
-            chkSimplesNacional.Enabled = true;
             txtRazaoNome.Focus();
         }
 
@@ -110,6 +104,10 @@ namespace NovoPDV
             if (MessageBox.Show("Deseja realmente excluir este cadastro ?", "VetiPDV", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 MessageBox.Show("Cadastro excluído com sucesso !", "Veti PDV");
+                btnCancelar.Visible = false;
+                btnNovo.Enabled = true;
+                btnAlterar.Enabled = true;
+                btnImportar.Enabled = true;
             }
         }
 
@@ -156,16 +154,11 @@ namespace NovoPDV
             txtContato.Enabled = false;
             btnExcluir.Enabled = false;
             btnSalvar.Enabled = false;
-            btnCancelar.Visible = false;
-            btnNovo.Enabled = true;
             btnImportar.Enabled = true;
+            btnNovo.Enabled = true;
+            btnCancelar.Visible = false;
             btnAlterar.Enabled = true;
             txtPesquisar.Focus();
-        }
-
-        private void chkPermCredICMS_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
     }
 }

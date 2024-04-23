@@ -22,3 +22,12 @@ C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmDescontoP
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmCadastroFornecedor.resources
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmCadastroFuncionario.resources
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmCadastroVendedor.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmICMSSubstituicao.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmCadastroProdutos.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmFiscalProdutos.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmCadastroTransportadora.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmCadastroUsuario.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmEstadoICMS.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmNatOperacao.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmCondPagto.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmNCM.resources

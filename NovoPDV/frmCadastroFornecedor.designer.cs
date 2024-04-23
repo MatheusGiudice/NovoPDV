@@ -67,17 +67,6 @@ namespace NovoPDV
             this.lblRazaoNome = new System.Windows.Forms.Label();
             this.btnSair = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.RazãoSocial = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.NomeFantasia = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.CNPJ = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Bairro = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Cidade = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.UF = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Contato = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Telefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.Celular = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnPesquisar = new System.Windows.Forms.Button();
             this.txtPesquisar = new System.Windows.Forms.TextBox();
             this.bindingNavigator1 = new System.Windows.Forms.BindingNavigator(this.components);
@@ -96,10 +85,25 @@ namespace NovoPDV
             this.rbRazaoSocial = new System.Windows.Forms.RadioButton();
             this.rbCodigo = new System.Windows.Forms.RadioButton();
             this.btnCancelar = new System.Windows.Forms.Button();
+            this.gbRegimeCliente = new System.Windows.Forms.GroupBox();
+            this.chkPermCredICMS = new System.Windows.Forms.CheckBox();
+            this.chkSimplesNacional = new System.Windows.Forms.CheckBox();
+            this.Codigo = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.RazãoSocial = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.NomeFantasia = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.CNPJ = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.InscEstadual = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.TipoRegime = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.PermCreditoICMS = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Contato = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Email = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Telefone = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Celular = new System.Windows.Forms.DataGridViewTextBoxColumn();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingNavigator1)).BeginInit();
             this.bindingNavigator1.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.gbRegimeCliente.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnAlterar
@@ -164,7 +168,7 @@ namespace NovoPDV
             // 
             // txtContato
             // 
-            this.txtContato.Location = new System.Drawing.Point(831, 480);
+            this.txtContato.Location = new System.Drawing.Point(792, 480);
             this.txtContato.Name = "txtContato";
             this.txtContato.Size = new System.Drawing.Size(297, 20);
             this.txtContato.TabIndex = 9000019;
@@ -173,7 +177,7 @@ namespace NovoPDV
             // 
             this.lblContato.AutoSize = true;
             this.lblContato.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblContato.Location = new System.Drawing.Point(722, 481);
+            this.lblContato.Location = new System.Drawing.Point(683, 481);
             this.lblContato.Name = "lblContato";
             this.lblContato.Size = new System.Drawing.Size(57, 17);
             this.lblContato.TabIndex = 9000034;
@@ -181,7 +185,7 @@ namespace NovoPDV
             // 
             // msktxtCelular
             // 
-            this.msktxtCelular.Location = new System.Drawing.Point(1034, 454);
+            this.msktxtCelular.Location = new System.Drawing.Point(995, 454);
             this.msktxtCelular.Mask = "(00) 00000-0000";
             this.msktxtCelular.Name = "msktxtCelular";
             this.msktxtCelular.Size = new System.Drawing.Size(94, 20);
@@ -192,7 +196,7 @@ namespace NovoPDV
             // 
             this.lblCelular.AutoSize = true;
             this.lblCelular.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblCelular.Location = new System.Drawing.Point(976, 455);
+            this.lblCelular.Location = new System.Drawing.Point(937, 455);
             this.lblCelular.Name = "lblCelular";
             this.lblCelular.Size = new System.Drawing.Size(52, 17);
             this.lblCelular.TabIndex = 9000033;
@@ -200,7 +204,7 @@ namespace NovoPDV
             // 
             // msktxtTelefone
             // 
-            this.msktxtTelefone.Location = new System.Drawing.Point(831, 454);
+            this.msktxtTelefone.Location = new System.Drawing.Point(792, 454);
             this.msktxtTelefone.Mask = "(00) 0000-0000";
             this.msktxtTelefone.Name = "msktxtTelefone";
             this.msktxtTelefone.Size = new System.Drawing.Size(93, 20);
@@ -211,7 +215,7 @@ namespace NovoPDV
             // 
             this.lblTelefone.AutoSize = true;
             this.lblTelefone.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblTelefone.Location = new System.Drawing.Point(722, 457);
+            this.lblTelefone.Location = new System.Drawing.Point(683, 457);
             this.lblTelefone.Name = "lblTelefone";
             this.lblTelefone.Size = new System.Drawing.Size(64, 17);
             this.lblTelefone.TabIndex = 9000032;
@@ -219,7 +223,7 @@ namespace NovoPDV
             // 
             // txtEmail
             // 
-            this.txtEmail.Location = new System.Drawing.Point(831, 428);
+            this.txtEmail.Location = new System.Drawing.Point(792, 428);
             this.txtEmail.Name = "txtEmail";
             this.txtEmail.Size = new System.Drawing.Size(211, 20);
             this.txtEmail.TabIndex = 9000016;
@@ -228,7 +232,7 @@ namespace NovoPDV
             // 
             this.lblEmail.AutoSize = true;
             this.lblEmail.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblEmail.Location = new System.Drawing.Point(722, 429);
+            this.lblEmail.Location = new System.Drawing.Point(683, 429);
             this.lblEmail.Name = "lblEmail";
             this.lblEmail.Size = new System.Drawing.Size(47, 17);
             this.lblEmail.TabIndex = 9000031;
@@ -236,7 +240,7 @@ namespace NovoPDV
             // 
             // msktxtCEP
             // 
-            this.msktxtCEP.Location = new System.Drawing.Point(1048, 402);
+            this.msktxtCEP.Location = new System.Drawing.Point(1009, 402);
             this.msktxtCEP.Mask = "00000-000";
             this.msktxtCEP.Name = "msktxtCEP";
             this.msktxtCEP.Size = new System.Drawing.Size(80, 20);
@@ -247,7 +251,7 @@ namespace NovoPDV
             // 
             this.lblCEP.AutoSize = true;
             this.lblCEP.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblCEP.Location = new System.Drawing.Point(1003, 403);
+            this.lblCEP.Location = new System.Drawing.Point(964, 403);
             this.lblCEP.Name = "lblCEP";
             this.lblCEP.Size = new System.Drawing.Size(35, 17);
             this.lblCEP.TabIndex = 9000030;
@@ -255,7 +259,7 @@ namespace NovoPDV
             // 
             // txtCidade
             // 
-            this.txtCidade.Location = new System.Drawing.Point(831, 402);
+            this.txtCidade.Location = new System.Drawing.Point(792, 402);
             this.txtCidade.Name = "txtCidade";
             this.txtCidade.Size = new System.Drawing.Size(146, 20);
             this.txtCidade.TabIndex = 9000014;
@@ -264,7 +268,7 @@ namespace NovoPDV
             // 
             this.lblCidade.AutoSize = true;
             this.lblCidade.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblCidade.Location = new System.Drawing.Point(722, 403);
+            this.lblCidade.Location = new System.Drawing.Point(683, 403);
             this.lblCidade.Name = "lblCidade";
             this.lblCidade.Size = new System.Drawing.Size(52, 17);
             this.lblCidade.TabIndex = 9000029;
@@ -301,7 +305,7 @@ namespace NovoPDV
             "SE",
             "SP",
             "TO"});
-            this.cbUF.Location = new System.Drawing.Point(1070, 375);
+            this.cbUF.Location = new System.Drawing.Point(1031, 375);
             this.cbUF.Name = "cbUF";
             this.cbUF.Size = new System.Drawing.Size(58, 21);
             this.cbUF.TabIndex = 9000013;
@@ -310,7 +314,7 @@ namespace NovoPDV
             // 
             this.lblUF.AutoSize = true;
             this.lblUF.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblUF.Location = new System.Drawing.Point(1038, 376);
+            this.lblUF.Location = new System.Drawing.Point(999, 376);
             this.lblUF.Name = "lblUF";
             this.lblUF.Size = new System.Drawing.Size(26, 17);
             this.lblUF.TabIndex = 9000028;
@@ -318,7 +322,7 @@ namespace NovoPDV
             // 
             // txtBairro
             // 
-            this.txtBairro.Location = new System.Drawing.Point(831, 375);
+            this.txtBairro.Location = new System.Drawing.Point(792, 375);
             this.txtBairro.Name = "txtBairro";
             this.txtBairro.Size = new System.Drawing.Size(146, 20);
             this.txtBairro.TabIndex = 9000012;
@@ -327,7 +331,7 @@ namespace NovoPDV
             // 
             this.lblBairro.AutoSize = true;
             this.lblBairro.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblBairro.Location = new System.Drawing.Point(722, 378);
+            this.lblBairro.Location = new System.Drawing.Point(683, 378);
             this.lblBairro.Name = "lblBairro";
             this.lblBairro.Size = new System.Drawing.Size(46, 17);
             this.lblBairro.TabIndex = 9000027;
@@ -335,7 +339,7 @@ namespace NovoPDV
             // 
             // txtComplemento
             // 
-            this.txtComplemento.Location = new System.Drawing.Point(1006, 348);
+            this.txtComplemento.Location = new System.Drawing.Point(967, 348);
             this.txtComplemento.Name = "txtComplemento";
             this.txtComplemento.Size = new System.Drawing.Size(122, 20);
             this.txtComplemento.TabIndex = 9000011;
@@ -344,7 +348,7 @@ namespace NovoPDV
             // 
             this.lblComplemento.AutoSize = true;
             this.lblComplemento.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblComplemento.Location = new System.Drawing.Point(906, 349);
+            this.lblComplemento.Location = new System.Drawing.Point(867, 349);
             this.lblComplemento.Name = "lblComplemento";
             this.lblComplemento.Size = new System.Drawing.Size(94, 17);
             this.lblComplemento.TabIndex = 9000026;
@@ -352,7 +356,7 @@ namespace NovoPDV
             // 
             // txtNumero
             // 
-            this.txtNumero.Location = new System.Drawing.Point(831, 348);
+            this.txtNumero.Location = new System.Drawing.Point(792, 348);
             this.txtNumero.Name = "txtNumero";
             this.txtNumero.Size = new System.Drawing.Size(71, 20);
             this.txtNumero.TabIndex = 9000010;
@@ -361,7 +365,7 @@ namespace NovoPDV
             // 
             this.lblNumero.AutoSize = true;
             this.lblNumero.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblNumero.Location = new System.Drawing.Point(722, 349);
+            this.lblNumero.Location = new System.Drawing.Point(683, 349);
             this.lblNumero.Name = "lblNumero";
             this.lblNumero.Size = new System.Drawing.Size(58, 17);
             this.lblNumero.TabIndex = 9000025;
@@ -369,7 +373,7 @@ namespace NovoPDV
             // 
             // txtEndereco
             // 
-            this.txtEndereco.Location = new System.Drawing.Point(831, 322);
+            this.txtEndereco.Location = new System.Drawing.Point(792, 322);
             this.txtEndereco.Name = "txtEndereco";
             this.txtEndereco.Size = new System.Drawing.Size(297, 20);
             this.txtEndereco.TabIndex = 9000009;
@@ -378,7 +382,7 @@ namespace NovoPDV
             // 
             this.lblEndereco.AutoSize = true;
             this.lblEndereco.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblEndereco.Location = new System.Drawing.Point(722, 323);
+            this.lblEndereco.Location = new System.Drawing.Point(683, 323);
             this.lblEndereco.Name = "lblEndereco";
             this.lblEndereco.Size = new System.Drawing.Size(69, 17);
             this.lblEndereco.TabIndex = 9000024;
@@ -386,7 +390,7 @@ namespace NovoPDV
             // 
             // txtIERG
             // 
-            this.txtIERG.Location = new System.Drawing.Point(1008, 296);
+            this.txtIERG.Location = new System.Drawing.Point(969, 296);
             this.txtIERG.Name = "txtIERG";
             this.txtIERG.Size = new System.Drawing.Size(120, 20);
             this.txtIERG.TabIndex = 9000008;
@@ -395,7 +399,7 @@ namespace NovoPDV
             // 
             this.lblIERG.AutoSize = true;
             this.lblIERG.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblIERG.Location = new System.Drawing.Point(978, 297);
+            this.lblIERG.Location = new System.Drawing.Point(939, 297);
             this.lblIERG.Name = "lblIERG";
             this.lblIERG.Size = new System.Drawing.Size(24, 17);
             this.lblIERG.TabIndex = 9000023;
@@ -403,7 +407,7 @@ namespace NovoPDV
             // 
             // msktxtCNPJCPF
             // 
-            this.msktxtCNPJCPF.Location = new System.Drawing.Point(831, 296);
+            this.msktxtCNPJCPF.Location = new System.Drawing.Point(792, 296);
             this.msktxtCNPJCPF.Mask = "00.000.000/0000-00";
             this.msktxtCNPJCPF.Name = "msktxtCNPJCPF";
             this.msktxtCNPJCPF.Size = new System.Drawing.Size(121, 20);
@@ -413,7 +417,7 @@ namespace NovoPDV
             // 
             this.lblCNPJCPF.AutoSize = true;
             this.lblCNPJCPF.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblCNPJCPF.Location = new System.Drawing.Point(722, 297);
+            this.lblCNPJCPF.Location = new System.Drawing.Point(683, 297);
             this.lblCNPJCPF.Name = "lblCNPJCPF";
             this.lblCNPJCPF.Size = new System.Drawing.Size(43, 17);
             this.lblCNPJCPF.TabIndex = 9000022;
@@ -421,7 +425,7 @@ namespace NovoPDV
             // 
             // txtFantasia
             // 
-            this.txtFantasia.Location = new System.Drawing.Point(831, 269);
+            this.txtFantasia.Location = new System.Drawing.Point(792, 269);
             this.txtFantasia.Name = "txtFantasia";
             this.txtFantasia.Size = new System.Drawing.Size(297, 20);
             this.txtFantasia.TabIndex = 9000006;
@@ -430,7 +434,7 @@ namespace NovoPDV
             // 
             this.lblFantasia.AutoSize = true;
             this.lblFantasia.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblFantasia.Location = new System.Drawing.Point(722, 270);
+            this.lblFantasia.Location = new System.Drawing.Point(683, 270);
             this.lblFantasia.Name = "lblFantasia";
             this.lblFantasia.Size = new System.Drawing.Size(103, 17);
             this.lblFantasia.TabIndex = 9000021;
@@ -438,7 +442,7 @@ namespace NovoPDV
             // 
             // txtRazaoNome
             // 
-            this.txtRazaoNome.Location = new System.Drawing.Point(831, 243);
+            this.txtRazaoNome.Location = new System.Drawing.Point(792, 243);
             this.txtRazaoNome.Name = "txtRazaoNome";
             this.txtRazaoNome.Size = new System.Drawing.Size(297, 20);
             this.txtRazaoNome.TabIndex = 9000005;
@@ -447,7 +451,7 @@ namespace NovoPDV
             // 
             this.lblRazaoNome.AutoSize = true;
             this.lblRazaoNome.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblRazaoNome.Location = new System.Drawing.Point(722, 244);
+            this.lblRazaoNome.Location = new System.Drawing.Point(683, 244);
             this.lblRazaoNome.Name = "lblRazaoNome";
             this.lblRazaoNome.Size = new System.Drawing.Size(91, 17);
             this.lblRazaoNome.TabIndex = 9000020;
@@ -475,9 +479,9 @@ namespace NovoPDV
             this.RazãoSocial,
             this.NomeFantasia,
             this.CNPJ,
-            this.Bairro,
-            this.Cidade,
-            this.UF,
+            this.InscEstadual,
+            this.TipoRegime,
+            this.PermCreditoICMS,
             this.Contato,
             this.Email,
             this.Telefone,
@@ -486,70 +490,6 @@ namespace NovoPDV
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.Size = new System.Drawing.Size(532, 218);
             this.dataGridView1.TabIndex = 9000038;
-            // 
-            // Codigo
-            // 
-            this.Codigo.HeaderText = "Código";
-            this.Codigo.Name = "Codigo";
-            this.Codigo.Width = 70;
-            // 
-            // RazãoSocial
-            // 
-            this.RazãoSocial.HeaderText = "Razão Social";
-            this.RazãoSocial.Name = "RazãoSocial";
-            this.RazãoSocial.Width = 150;
-            // 
-            // NomeFantasia
-            // 
-            this.NomeFantasia.HeaderText = "Nome Fantasia";
-            this.NomeFantasia.Name = "NomeFantasia";
-            this.NomeFantasia.Width = 150;
-            // 
-            // CNPJ
-            // 
-            this.CNPJ.HeaderText = "CNPJ";
-            this.CNPJ.Name = "CNPJ";
-            this.CNPJ.Width = 120;
-            // 
-            // Bairro
-            // 
-            this.Bairro.HeaderText = "Bairro";
-            this.Bairro.Name = "Bairro";
-            // 
-            // Cidade
-            // 
-            this.Cidade.HeaderText = "Cidade";
-            this.Cidade.Name = "Cidade";
-            this.Cidade.Width = 150;
-            // 
-            // UF
-            // 
-            this.UF.HeaderText = "UF";
-            this.UF.Name = "UF";
-            this.UF.Width = 60;
-            // 
-            // Contato
-            // 
-            this.Contato.HeaderText = "Contato";
-            this.Contato.Name = "Contato";
-            this.Contato.Width = 120;
-            // 
-            // Email
-            // 
-            this.Email.HeaderText = "E-mail";
-            this.Email.Name = "Email";
-            // 
-            // Telefone
-            // 
-            this.Telefone.HeaderText = "Telefone";
-            this.Telefone.Name = "Telefone";
-            this.Telefone.Width = 80;
-            // 
-            // Celular
-            // 
-            this.Celular.HeaderText = "Celular";
-            this.Celular.Name = "Celular";
-            this.Celular.Width = 80;
             // 
             // btnPesquisar
             // 
@@ -743,12 +683,106 @@ namespace NovoPDV
             this.btnCancelar.Visible = false;
             this.btnCancelar.Click += new System.EventHandler(this.btnCancelar_Click);
             // 
-            // CadastroFornecedor
+            // gbRegimeCliente
+            // 
+            this.gbRegimeCliente.Controls.Add(this.chkPermCredICMS);
+            this.gbRegimeCliente.Controls.Add(this.chkSimplesNacional);
+            this.gbRegimeCliente.Location = new System.Drawing.Point(1162, 303);
+            this.gbRegimeCliente.Name = "gbRegimeCliente";
+            this.gbRegimeCliente.Size = new System.Drawing.Size(155, 72);
+            this.gbRegimeCliente.TabIndex = 9000098;
+            this.gbRegimeCliente.TabStop = false;
+            this.gbRegimeCliente.Text = "Tipo Regime";
+            // 
+            // chkPermCredICMS
+            // 
+            this.chkPermCredICMS.AutoSize = true;
+            this.chkPermCredICMS.Location = new System.Drawing.Point(6, 46);
+            this.chkPermCredICMS.Name = "chkPermCredICMS";
+            this.chkPermCredICMS.Size = new System.Drawing.Size(141, 17);
+            this.chkPermCredICMS.TabIndex = 1;
+            this.chkPermCredICMS.Text = "Permite Crédito de ICMS";
+            this.chkPermCredICMS.UseVisualStyleBackColor = true;
+            this.chkPermCredICMS.CheckedChanged += new System.EventHandler(this.chkPermCredICMS_CheckedChanged);
+            // 
+            // chkSimplesNacional
+            // 
+            this.chkSimplesNacional.AutoSize = true;
+            this.chkSimplesNacional.Location = new System.Drawing.Point(7, 22);
+            this.chkSimplesNacional.Name = "chkSimplesNacional";
+            this.chkSimplesNacional.Size = new System.Drawing.Size(107, 17);
+            this.chkSimplesNacional.TabIndex = 0;
+            this.chkSimplesNacional.Text = "Simples Nacional";
+            this.chkSimplesNacional.UseVisualStyleBackColor = true;
+            // 
+            // Codigo
+            // 
+            this.Codigo.HeaderText = "Código";
+            this.Codigo.Name = "Codigo";
+            this.Codigo.Width = 70;
+            // 
+            // RazãoSocial
+            // 
+            this.RazãoSocial.HeaderText = "Razão Social";
+            this.RazãoSocial.Name = "RazãoSocial";
+            this.RazãoSocial.Width = 150;
+            // 
+            // NomeFantasia
+            // 
+            this.NomeFantasia.HeaderText = "Nome Fantasia";
+            this.NomeFantasia.Name = "NomeFantasia";
+            this.NomeFantasia.Width = 150;
+            // 
+            // CNPJ
+            // 
+            this.CNPJ.HeaderText = "CNPJ";
+            this.CNPJ.Name = "CNPJ";
+            this.CNPJ.Width = 120;
+            // 
+            // InscEstadual
+            // 
+            this.InscEstadual.HeaderText = "Insc. Estadual";
+            this.InscEstadual.Name = "InscEstadual";
+            // 
+            // TipoRegime
+            // 
+            this.TipoRegime.HeaderText = "Tipo Regime";
+            this.TipoRegime.Name = "TipoRegime";
+            // 
+            // PermCreditoICMS
+            // 
+            this.PermCreditoICMS.HeaderText = "Permite Crédito ICMS";
+            this.PermCreditoICMS.Name = "PermCreditoICMS";
+            // 
+            // Contato
+            // 
+            this.Contato.HeaderText = "Contato";
+            this.Contato.Name = "Contato";
+            this.Contato.Width = 160;
+            // 
+            // Email
+            // 
+            this.Email.HeaderText = "E-mail";
+            this.Email.Name = "Email";
+            this.Email.Width = 160;
+            // 
+            // Telefone
+            // 
+            this.Telefone.HeaderText = "Telefone";
+            this.Telefone.Name = "Telefone";
+            // 
+            // Celular
+            // 
+            this.Celular.HeaderText = "Celular";
+            this.Celular.Name = "Celular";
+            // 
+            // frmCadastroFornecedor
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.ClientSize = new System.Drawing.Size(1305, 694);
+            this.Controls.Add(this.gbRegimeCliente);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.btnImportar);
@@ -789,7 +823,7 @@ namespace NovoPDV
             this.Controls.Add(this.btnExcluir);
             this.Controls.Add(this.btnNovo);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "CadastroFornecedor";
+            this.Name = "frmCadastroFornecedor";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Cadastro de Fornecedor";
             this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
@@ -800,6 +834,8 @@ namespace NovoPDV
             this.bindingNavigator1.PerformLayout();
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
+            this.gbRegimeCliente.ResumeLayout(false);
+            this.gbRegimeCliente.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -856,21 +892,24 @@ namespace NovoPDV
         private System.Windows.Forms.ToolStripButton bindingNavigatorMoveLastItem;
         private System.Windows.Forms.ToolStripSeparator bindingNavigatorSeparator2;
         private System.Windows.Forms.Button btnImportar;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
-        private System.Windows.Forms.DataGridViewTextBoxColumn RazãoSocial;
-        private System.Windows.Forms.DataGridViewTextBoxColumn NomeFantasia;
-        private System.Windows.Forms.DataGridViewTextBoxColumn CNPJ;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Bairro;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Cidade;
-        private System.Windows.Forms.DataGridViewTextBoxColumn UF;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Contato;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Email;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Telefone;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Celular;
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.RadioButton rbCNPJ;
         private System.Windows.Forms.RadioButton rbRazaoSocial;
         private System.Windows.Forms.RadioButton rbCodigo;
         private System.Windows.Forms.Button btnCancelar;
+        private System.Windows.Forms.GroupBox gbRegimeCliente;
+        private System.Windows.Forms.CheckBox chkPermCredICMS;
+        private System.Windows.Forms.CheckBox chkSimplesNacional;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
+        private System.Windows.Forms.DataGridViewTextBoxColumn RazãoSocial;
+        private System.Windows.Forms.DataGridViewTextBoxColumn NomeFantasia;
+        private System.Windows.Forms.DataGridViewTextBoxColumn CNPJ;
+        private System.Windows.Forms.DataGridViewTextBoxColumn InscEstadual;
+        private System.Windows.Forms.DataGridViewTextBoxColumn TipoRegime;
+        private System.Windows.Forms.DataGridViewTextBoxColumn PermCreditoICMS;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Contato;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Email;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Telefone;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Celular;
     }
 }

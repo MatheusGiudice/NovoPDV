@@ -192,24 +192,28 @@ namespace NovoPDV
             this.estadosParaICMSToolStripMenuItem.Name = "estadosParaICMSToolStripMenuItem";
             this.estadosParaICMSToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
             this.estadosParaICMSToolStripMenuItem.Text = "Estados para ICMS";
+            this.estadosParaICMSToolStripMenuItem.Click += new System.EventHandler(this.estadosParaICMSToolStripMenuItem_Click);
             // 
             // naturezaDaOperaçãoToolStripMenuItem
             // 
             this.naturezaDaOperaçãoToolStripMenuItem.Name = "naturezaDaOperaçãoToolStripMenuItem";
             this.naturezaDaOperaçãoToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
             this.naturezaDaOperaçãoToolStripMenuItem.Text = "Natureza da Operação";
+            this.naturezaDaOperaçãoToolStripMenuItem.Click += new System.EventHandler(this.naturezaDaOperaçãoToolStripMenuItem_Click);
             // 
             // nCMToolStripMenuItem
             // 
             this.nCMToolStripMenuItem.Name = "nCMToolStripMenuItem";
             this.nCMToolStripMenuItem.Size = new System.Drawing.Size(191, 22);
             this.nCMToolStripMenuItem.Text = "NCM";
+            this.nCMToolStripMenuItem.Click += new System.EventHandler(this.nCMToolStripMenuItem_Click);
             // 
             // pagamentoToolStripMenuItem
             // 
             this.pagamentoToolStripMenuItem.Name = "pagamentoToolStripMenuItem";
             this.pagamentoToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
             this.pagamentoToolStripMenuItem.Text = "Formas de Pagamento";
+            this.pagamentoToolStripMenuItem.Click += new System.EventHandler(this.pagamentoToolStripMenuItem_Click);
             // 
             // fornecedorToolStripMenuItem
             // 
@@ -230,18 +234,21 @@ namespace NovoPDV
             this.produtoToolStripMenuItem.Name = "produtoToolStripMenuItem";
             this.produtoToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
             this.produtoToolStripMenuItem.Text = "Produto";
+            this.produtoToolStripMenuItem.Click += new System.EventHandler(this.produtoToolStripMenuItem_Click);
             // 
             // transportadoraToolStripMenuItem
             // 
             this.transportadoraToolStripMenuItem.Name = "transportadoraToolStripMenuItem";
             this.transportadoraToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
             this.transportadoraToolStripMenuItem.Text = "Transportadora";
+            this.transportadoraToolStripMenuItem.Click += new System.EventHandler(this.transportadoraToolStripMenuItem_Click);
             // 
             // usuáriosToolStripMenuItem
             // 
             this.usuáriosToolStripMenuItem.Name = "usuáriosToolStripMenuItem";
             this.usuáriosToolStripMenuItem.Size = new System.Drawing.Size(193, 22);
             this.usuáriosToolStripMenuItem.Text = "Usuários";
+            this.usuáriosToolStripMenuItem.Click += new System.EventHandler(this.usuáriosToolStripMenuItem_Click);
             // 
             // faturamentoToolStripMenuItem
             // 
@@ -458,7 +465,7 @@ namespace NovoPDV
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox1.Location = new System.Drawing.Point(560, 327);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(287, 111);
+            this.pictureBox1.Size = new System.Drawing.Size(329, 153);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;

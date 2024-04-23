@@ -46,6 +46,60 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmNCM.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNCM.designer.cs">
+      <DependentUpon>frmNCM.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCondPagto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCondPagto.designer.cs">
+      <DependentUpon>frmCondPagto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNatOperacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNatOperacao.designer.cs">
+      <DependentUpon>frmNatOperacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmEstadoICMS.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmEstadoICMS.designer.cs">
+      <DependentUpon>frmEstadoICMS.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroUsuario.designer.cs">
+      <DependentUpon>frmCadastroUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroTransportadora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroTransportadora.designer.cs">
+      <DependentUpon>frmCadastroTransportadora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmICMSSubstituicao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmICMSSubstituicao.designer.cs">
+      <DependentUpon>frmICMSSubstituicao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCadastroProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCadastroProdutos.designer.cs">
+      <DependentUpon>frmCadastroProdutos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFiscalProdutos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFiscalProdutos.designer.cs">
+      <DependentUpon>frmFiscalProdutos.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmCadastroVendedor.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -138,6 +192,33 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmNCM.resx">
+      <DependentUpon>frmNCM.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCondPagto.resx">
+      <DependentUpon>frmCondPagto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNatOperacao.resx">
+      <DependentUpon>frmNatOperacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmEstadoICMS.resx">
+      <DependentUpon>frmEstadoICMS.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroUsuario.resx">
+      <DependentUpon>frmCadastroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroTransportadora.resx">
+      <DependentUpon>frmCadastroTransportadora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmICMSSubstituicao.resx">
+      <DependentUpon>frmICMSSubstituicao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCadastroProdutos.resx">
+      <DependentUpon>frmCadastroProdutos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFiscalProdutos.resx">
+      <DependentUpon>frmFiscalProdutos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmCadastroVendedor.resx">
       <DependentUpon>frmCadastroVendedor.cs</DependentUpon>
     </EmbeddedResource>
