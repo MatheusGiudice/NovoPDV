@@ -17,3 +17,8 @@ C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmSobre.res
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmCadastroEmpresa.resources
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmVincularNFCe.resources
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmVincularSAT.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmCadastroCaixa.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmDescontoPedido.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmCadastroFornecedor.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmCadastroFuncionario.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmCadastroVendedor.resources

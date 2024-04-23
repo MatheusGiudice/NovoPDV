@@ -62,5 +62,29 @@ namespace NovoPDV
             frmCadastroEmpresa _cadastroEmpresa = new frmCadastroEmpresa();
             _cadastroEmpresa.ShowDialog();
         }
+
+        private void caixaToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmCadastroCaixa _cadastroCaixa = new frmCadastroCaixa();
+            _cadastroCaixa.ShowDialog();
+        }
+
+        private void fornecedorToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroFornecedor _cadastroFornecedor = new frmCadastroFornecedor();
+            _cadastroFornecedor.ShowDialog();
+        }
+
+        private void funcionárioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroFuncionario _cadastroFuncionario = new frmCadastroFuncionario();
+            _cadastroFuncionario.ShowDialog();
+        }
+
+        private void vendedoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroVendedor _cadastroVendedor = new frmCadastroVendedor();
+            _cadastroVendedor.ShowDialog();
+        }
     }
 }
