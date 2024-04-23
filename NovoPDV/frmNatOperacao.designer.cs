@@ -509,7 +509,7 @@ namespace NovoPDV
         private System.Windows.Forms.DataGridViewTextBoxColumn Codigo;
         private System.Windows.Forms.DataGridViewTextBoxColumn Descrição;
         private System.Windows.Forms.DataGridViewTextBoxColumn TipoNatureza;
-        private System.Windows.Forms.DataGridViewTextBoxColumn Layout;
+        private new System.Windows.Forms.DataGridViewTextBoxColumn Layout;
         private System.Windows.Forms.DataGridViewTextBoxColumn FinalidadeEmissao;
         private System.Windows.Forms.Button btnCancelar;
     }

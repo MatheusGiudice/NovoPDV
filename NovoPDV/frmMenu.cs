@@ -128,5 +128,59 @@ namespace NovoPDV
             frmNCM _formNCM = new frmNCM();
             _formNCM.ShowDialog();
         }
+
+        private void pedidosDeVendaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPedidoVenda _pedidoDeVenda = new frmPedidoVenda();
+            _pedidoDeVenda.ShowDialog();
+        }
+
+        private void pedidosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDevolucaoPedido _DevolucaoPedido = new frmDevolucaoPedido();
+            _DevolucaoPedido.ShowDialog();
+        }
+
+        private void inutilizaçãoDeFaixaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmInutilizacaoFaixaNF _inutilizacaoFaixaNF = new frmInutilizacaoFaixaNF();
+            _inutilizacaoFaixaNF.ShowDialog();
+        }
+
+        private void complementarToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNotaFiscalComplementar _notaFiscalComplementar = new frmNotaFiscalComplementar();
+            _notaFiscalComplementar.ShowDialog();
+        }
+
+        private void pedidosBaixadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmPedidoBaixado _pedidoBaixado = new frmPedidoBaixado();
+            _pedidoBaixado.ShowDialog();
+        }
+
+        private void emitidasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNotasFiscaisEmitidas _notasFiscaisEmitidas = new frmNotasFiscaisEmitidas();
+            _notasFiscaisEmitidas.ShowDialog();
+        }
+
+        private void cartaDeCorreçãoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCartaCorrecao _cartaDeCorrecao = new frmCartaCorrecao();
+            _cartaDeCorrecao.ShowDialog();
+        }
+
+        private void posiçãoDeCaixaToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmLoginPosicaoCaixa _loginPosicaoCaixa = new frmLoginPosicaoCaixa();
+            _loginPosicaoCaixa.ShowDialog();
+        }
+
+        private void pedidosAbertosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            frmPedidoCompra _pedidoCompra = new frmPedidoCompra();
+            _pedidoCompra.ShowDialog();
+        }
     }
 }

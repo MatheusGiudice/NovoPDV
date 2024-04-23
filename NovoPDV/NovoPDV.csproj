@@ -46,6 +46,114 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="frmInserirPedidoCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInserirPedidoCompra.designer.cs">
+      <DependentUpon>frmInserirPedidoCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPedidoCompra.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPedidoCompra.designer.cs">
+      <DependentUpon>frmPedidoCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPosicaoCaixaSintetico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPosicaoCaixaSintetico.designer.cs">
+      <DependentUpon>frmPosicaoCaixaSintetico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPosicaoCaixaConsolidado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPosicaoCaixaConsolidado.designer.cs">
+      <DependentUpon>frmPosicaoCaixaConsolidado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPosicaoCaixaAnalitico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPosicaoCaixaAnalitico.designer.cs">
+      <DependentUpon>frmPosicaoCaixaAnalitico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPosicaoCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPosicaoCaixa.designer.cs">
+      <DependentUpon>frmPosicaoCaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoginPosicaoCaixa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoginPosicaoCaixa.designer.cs">
+      <DependentUpon>frmLoginPosicaoCaixa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCartaCorrecao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCartaCorrecao.designer.cs">
+      <DependentUpon>frmCartaCorrecao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotasFiscaisEmitidas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotasFiscaisEmitidas.designer.cs">
+      <DependentUpon>frmNotasFiscaisEmitidas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPedidoBaixado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPedidoBaixado.designer.cs">
+      <DependentUpon>frmPedidoBaixado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotaFiscalComplementar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotaFiscalComplementar.designer.cs">
+      <DependentUpon>frmNotaFiscalComplementar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInutilizacaoFaixaNF.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInutilizacaoFaixaNF.designer.cs">
+      <DependentUpon>frmInutilizacaoFaixaNF.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmImprimirPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmImprimirPedido.designer.cs">
+      <DependentUpon>frmImprimirPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInserirPedidoVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInserirPedidoVenda.designer.cs">
+      <DependentUpon>frmInserirPedidoVenda.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDevolucaoPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDevolucaoPedido.designer.cs">
+      <DependentUpon>frmDevolucaoPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotaReferenciada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotaReferenciada.designer.cs">
+      <DependentUpon>frmNotaReferenciada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotaFiscal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotaFiscal.designer.cs">
+      <DependentUpon>frmNotaFiscal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPedidoVenda.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPedidoVenda.designer.cs">
+      <DependentUpon>frmPedidoVenda.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmNCM.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -190,8 +298,63 @@
     <Compile Include="frmSuporte.Designer.cs">
       <DependentUpon>frmSuporte.cs</DependentUpon>
     </Compile>
+    <Compile Include="Produtos.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmInserirPedidoCompra.resx">
+      <DependentUpon>frmInserirPedidoCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPedidoCompra.resx">
+      <DependentUpon>frmPedidoCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPosicaoCaixaSintetico.resx">
+      <DependentUpon>frmPosicaoCaixaSintetico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPosicaoCaixaConsolidado.resx">
+      <DependentUpon>frmPosicaoCaixaConsolidado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPosicaoCaixaAnalitico.resx">
+      <DependentUpon>frmPosicaoCaixaAnalitico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPosicaoCaixa.resx">
+      <DependentUpon>frmPosicaoCaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginPosicaoCaixa.resx">
+      <DependentUpon>frmLoginPosicaoCaixa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCartaCorrecao.resx">
+      <DependentUpon>frmCartaCorrecao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotasFiscaisEmitidas.resx">
+      <DependentUpon>frmNotasFiscaisEmitidas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPedidoBaixado.resx">
+      <DependentUpon>frmPedidoBaixado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotaFiscalComplementar.resx">
+      <DependentUpon>frmNotaFiscalComplementar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInutilizacaoFaixaNF.resx">
+      <DependentUpon>frmInutilizacaoFaixaNF.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmImprimirPedido.resx">
+      <DependentUpon>frmImprimirPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInserirPedidoVenda.resx">
+      <DependentUpon>frmInserirPedidoVenda.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDevolucaoPedido.resx">
+      <DependentUpon>frmDevolucaoPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotaReferenciada.resx">
+      <DependentUpon>frmNotaReferenciada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotaFiscal.resx">
+      <DependentUpon>frmNotaFiscal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPedidoVenda.resx">
+      <DependentUpon>frmPedidoVenda.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmNCM.resx">
       <DependentUpon>frmNCM.cs</DependentUpon>
     </EmbeddedResource>
@@ -285,6 +448,71 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="AcrobatAccessLib">
+      <Guid>{C523F390-9C83-11D3-9094-00104BD0D535}</Guid>
+      <VersionMajor>3</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="AcroPDFLib">
+      <Guid>{05BFD3F1-6319-4F30-B752-C7A22889BCC4}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="ACTIVEXLib">
+      <Guid>{012F24C1-35B0-11D0-BF2D-0000E8D0D146}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="InteropExtensionLib">
+      <Guid>{C3D19104-7A67-4EB0-B459-D5B2E734D430}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>0</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>tlbimp</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>8</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Excel">
+      <Guid>{00020813-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>1</VersionMajor>
+      <VersionMinor>9</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
