@@ -22,10 +22,8 @@ namespace NovoPDV
 
         private void btnSair_Click(object sender, EventArgs e)
         {
-            if (MessageBox.Show("Deseja realmente sair ?", "Veti PDV", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
-            {
-               this.Close();
-            }
+            this.Close();
+            
         }
 
         private StringReader meuLeitor;

@@ -182,5 +182,17 @@ namespace NovoPDV
             frmPedidoCompra _pedidoCompra = new frmPedidoCompra();
             _pedidoCompra.ShowDialog();
         }
+
+        private void valoresToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmDevolucaoValores _devolucaoValores = new frmDevolucaoValores();
+            _devolucaoValores.ShowDialog();
+        }
+
+        private void canceladasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmNotasFiscaisCanceladas _notasFiscaisCanceladas = new frmNotasFiscaisCanceladas();
+            _notasFiscaisCanceladas.ShowDialog();
+        }
     }
 }

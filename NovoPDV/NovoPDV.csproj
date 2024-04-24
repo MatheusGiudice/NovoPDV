@@ -52,11 +52,23 @@
     <Compile Include="frmAlterarUsuario.designer.cs">
       <DependentUpon>frmAlterarUsuario.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmDevolucaoValores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDevolucaoValores.Designer.cs">
+      <DependentUpon>frmDevolucaoValores.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmInserirPedidoCompra.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="frmInserirPedidoCompra.designer.cs">
       <DependentUpon>frmInserirPedidoCompra.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmNotasFiscaisCanceladas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmNotasFiscaisCanceladas.Designer.cs">
+      <DependentUpon>frmNotasFiscaisCanceladas.cs</DependentUpon>
     </Compile>
     <Compile Include="frmPedidoCompra.cs">
       <SubType>Form</SubType>
@@ -304,8 +316,14 @@
     <EmbeddedResource Include="frmAlterarUsuario.resx">
       <DependentUpon>frmAlterarUsuario.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="frmDevolucaoValores.resx">
+      <DependentUpon>frmDevolucaoValores.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="frmInserirPedidoCompra.resx">
       <DependentUpon>frmInserirPedidoCompra.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmNotasFiscaisCanceladas.resx">
+      <DependentUpon>frmNotasFiscaisCanceladas.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmPedidoCompra.resx">
       <DependentUpon>frmPedidoCompra.cs</DependentUpon>

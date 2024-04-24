@@ -289,6 +289,7 @@ namespace NovoPDV
             this.valoresToolStripMenuItem.Name = "valoresToolStripMenuItem";
             this.valoresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.valoresToolStripMenuItem.Text = "Valores";
+            this.valoresToolStripMenuItem.Click += new System.EventHandler(this.valoresToolStripMenuItem_Click);
             // 
             // notasFiscaisEmitidasToolStripMenuItem
             // 
@@ -307,6 +308,7 @@ namespace NovoPDV
             this.canceladasToolStripMenuItem.Name = "canceladasToolStripMenuItem";
             this.canceladasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.canceladasToolStripMenuItem.Text = "Canceladas";
+            this.canceladasToolStripMenuItem.Click += new System.EventHandler(this.canceladasToolStripMenuItem_Click);
             // 
             // complementarToolStripMenuItem
             // 
