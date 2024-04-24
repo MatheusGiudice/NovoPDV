@@ -1,7 +1,7 @@
 ﻿
 namespace NovoPDV
 {
-    partial class frmLoginUsuario
+    partial class frmAlterarUsuario
     {
         /// <summary>
         /// Required designer variable.
@@ -29,106 +29,112 @@ namespace NovoPDV
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmLoginUsuario));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmAlterarUsuario));
             this.btnSair = new System.Windows.Forms.Button();
             this.btnAcessar = new System.Windows.Forms.Button();
-            this.lblSenha = new System.Windows.Forms.Label();
-            this.lblUsuario = new System.Windows.Forms.Label();
             this.txtSenha = new System.Windows.Forms.TextBox();
-            this.txtUsuario = new System.Windows.Forms.TextBox();
+            this.txtLogin = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
             // btnSair
             // 
+            this.btnSair.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
             this.btnSair.Image = ((System.Drawing.Image)(resources.GetObject("btnSair.Image")));
             this.btnSair.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnSair.Location = new System.Drawing.Point(14, 219);
+            this.btnSair.Location = new System.Drawing.Point(26, 209);
             this.btnSair.Name = "btnSair";
             this.btnSair.Size = new System.Drawing.Size(151, 51);
-            this.btnSair.TabIndex = 10;
-            this.btnSair.Text = "&Sair";
+            this.btnSair.TabIndex = 9005;
+            this.btnSair.Text = "Sair";
             this.btnSair.UseVisualStyleBackColor = true;
-            this.btnSair.Click += new System.EventHandler(this.btnSair_Click);
+            this.btnSair.Click += new System.EventHandler(this.btnSair_Click_1);
             // 
             // btnAcessar
             // 
+            this.btnAcessar.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F);
+            this.btnAcessar.ForeColor = System.Drawing.SystemColors.ControlText;
             this.btnAcessar.Image = ((System.Drawing.Image)(resources.GetObject("btnAcessar.Image")));
             this.btnAcessar.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.btnAcessar.Location = new System.Drawing.Point(355, 219);
+            this.btnAcessar.Location = new System.Drawing.Point(317, 209);
             this.btnAcessar.Name = "btnAcessar";
-            this.btnAcessar.Size = new System.Drawing.Size(151, 51);
-            this.btnAcessar.TabIndex = 9;
-            this.btnAcessar.Text = "&Acessar";
+            this.btnAcessar.Size = new System.Drawing.Size(147, 51);
+            this.btnAcessar.TabIndex = 9004;
+            this.btnAcessar.Text = "Acessar";
             this.btnAcessar.UseVisualStyleBackColor = true;
             this.btnAcessar.Click += new System.EventHandler(this.btnAcessar_Click);
             // 
-            // lblSenha
-            // 
-            this.lblSenha.AutoSize = true;
-            this.lblSenha.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblSenha.Location = new System.Drawing.Point(164, 131);
-            this.lblSenha.Name = "lblSenha";
-            this.lblSenha.Size = new System.Drawing.Size(49, 17);
-            this.lblSenha.TabIndex = 12;
-            this.lblSenha.Text = "Senha";
-            // 
-            // lblUsuario
-            // 
-            this.lblUsuario.AutoSize = true;
-            this.lblUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
-            this.lblUsuario.Location = new System.Drawing.Point(164, 97);
-            this.lblUsuario.Name = "lblUsuario";
-            this.lblUsuario.Size = new System.Drawing.Size(57, 17);
-            this.lblUsuario.TabIndex = 11;
-            this.lblUsuario.Text = "Usuário";
-            // 
             // txtSenha
             // 
-            this.txtSenha.Location = new System.Drawing.Point(227, 130);
+            this.txtSenha.AcceptsTab = true;
+            this.txtSenha.Location = new System.Drawing.Point(208, 60);
             this.txtSenha.Name = "txtSenha";
             this.txtSenha.PasswordChar = '*';
-            this.txtSenha.Size = new System.Drawing.Size(100, 20);
-            this.txtSenha.TabIndex = 8;
-            this.txtSenha.TextChanged += new System.EventHandler(this.txtSenha_TextChanged);
+            this.txtSenha.Size = new System.Drawing.Size(123, 20);
+            this.txtSenha.TabIndex = 9003;
             this.txtSenha.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txtSenha_KeyPress);
             // 
-            // txtUsuario
+            // txtLogin
             // 
-            this.txtUsuario.Location = new System.Drawing.Point(227, 96);
-            this.txtUsuario.Name = "txtUsuario";
-            this.txtUsuario.Size = new System.Drawing.Size(100, 20);
-            this.txtUsuario.TabIndex = 7;
+            this.txtLogin.AcceptsTab = true;
+            this.txtLogin.Location = new System.Drawing.Point(208, 26);
+            this.txtLogin.Name = "txtLogin";
+            this.txtLogin.Size = new System.Drawing.Size(123, 20);
+            this.txtLogin.TabIndex = 9002;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.BackColor = System.Drawing.SystemColors.ControlLightLight;
+            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label2.Location = new System.Drawing.Point(137, 55);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(65, 24);
+            this.label2.TabIndex = 9007;
+            this.label2.Text = "Senha";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label1.Location = new System.Drawing.Point(137, 21);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(57, 24);
+            this.label1.TabIndex = 9006;
+            this.label1.Text = "Login";
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(18, 10);
+            this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
+            this.pictureBox1.Location = new System.Drawing.Point(74, 57);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(133, 47);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.pictureBox1.TabIndex = 13;
+            this.pictureBox1.Size = new System.Drawing.Size(347, 173);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 9000029;
             this.pictureBox1.TabStop = false;
             // 
-            // frmLoginUsuario
+            // AlterarUsuario
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
-            this.ClientSize = new System.Drawing.Size(520, 280);
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.ClientSize = new System.Drawing.Size(491, 281);
             this.Controls.Add(this.btnSair);
             this.Controls.Add(this.btnAcessar);
-            this.Controls.Add(this.lblSenha);
-            this.Controls.Add(this.lblUsuario);
             this.Controls.Add(this.txtSenha);
-            this.Controls.Add(this.txtUsuario);
+            this.Controls.Add(this.txtLogin);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.pictureBox1);
+            this.DoubleBuffered = true;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "frmLoginUsuario";
+            this.Name = "AlterarUsuario";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Login";
+            this.Text = "Veti PDV";
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
@@ -139,10 +145,10 @@ namespace NovoPDV
 
         private System.Windows.Forms.Button btnSair;
         private System.Windows.Forms.Button btnAcessar;
-        private System.Windows.Forms.Label lblSenha;
-        private System.Windows.Forms.Label lblUsuario;
         private System.Windows.Forms.TextBox txtSenha;
-        private System.Windows.Forms.TextBox txtUsuario;
+        private System.Windows.Forms.TextBox txtLogin;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }

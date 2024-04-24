@@ -35,8 +35,8 @@ namespace NovoPDV
 
         private void loginToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            frmLoginUsuario _loginUsuario = new frmLoginUsuario();
-            _loginUsuario.ShowDialog();
+            frmAlterarUsuario _alterarUsuario = new frmAlterarUsuario();
+            _alterarUsuario.ShowDialog();
         }
 
         private void suporteToolStripMenuItem_Click(object sender, EventArgs e)

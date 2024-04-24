@@ -32,7 +32,7 @@ namespace NovoPDV
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frmMenu));
             this.menuStrip1 = new System.Windows.Forms.MenuStrip();
             this.inícioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.loginToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.AlterarUsuarioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.sairToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cadastroToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
@@ -116,18 +116,18 @@ namespace NovoPDV
             // inícioToolStripMenuItem
             // 
             this.inícioToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.loginToolStripMenuItem,
+            this.AlterarUsuarioToolStripMenuItem,
             this.sairToolStripMenuItem});
             this.inícioToolStripMenuItem.Name = "inícioToolStripMenuItem";
             this.inícioToolStripMenuItem.Size = new System.Drawing.Size(61, 20);
             this.inícioToolStripMenuItem.Text = "Arquivo";
             // 
-            // loginToolStripMenuItem
+            // AlterarUsuarioToolStripMenuItem
             // 
-            this.loginToolStripMenuItem.Name = "loginToolStripMenuItem";
-            this.loginToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.loginToolStripMenuItem.Text = "Login";
-            this.loginToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
+            this.AlterarUsuarioToolStripMenuItem.Name = "AlterarUsuarioToolStripMenuItem";
+            this.AlterarUsuarioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.AlterarUsuarioToolStripMenuItem.Text = "Alterar Usuário";
+            this.AlterarUsuarioToolStripMenuItem.Click += new System.EventHandler(this.loginToolStripMenuItem_Click);
             // 
             // sairToolStripMenuItem
             // 
@@ -287,7 +287,7 @@ namespace NovoPDV
             // valoresToolStripMenuItem
             // 
             this.valoresToolStripMenuItem.Name = "valoresToolStripMenuItem";
-            this.valoresToolStripMenuItem.Size = new System.Drawing.Size(125, 22);
+            this.valoresToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.valoresToolStripMenuItem.Text = "Valores";
             // 
             // notasFiscaisEmitidasToolStripMenuItem
@@ -401,14 +401,14 @@ namespace NovoPDV
             // sobreToolStripMenuItem
             // 
             this.sobreToolStripMenuItem.Name = "sobreToolStripMenuItem";
-            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.sobreToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.sobreToolStripMenuItem.Text = "Sobre";
             this.sobreToolStripMenuItem.Click += new System.EventHandler(this.sobreToolStripMenuItem_Click);
             // 
             // suporteToolStripMenuItem
             // 
             this.suporteToolStripMenuItem.Name = "suporteToolStripMenuItem";
-            this.suporteToolStripMenuItem.Size = new System.Drawing.Size(115, 22);
+            this.suporteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.suporteToolStripMenuItem.Text = "Suporte";
             this.suporteToolStripMenuItem.Click += new System.EventHandler(this.suporteToolStripMenuItem_Click);
             // 
@@ -416,9 +416,9 @@ namespace NovoPDV
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(560, 327);
+            this.pictureBox1.Location = new System.Drawing.Point(563, 328);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(329, 153);
+            this.pictureBox1.Size = new System.Drawing.Size(276, 126);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 7;
             this.pictureBox1.TabStop = false;
@@ -452,7 +452,7 @@ namespace NovoPDV
             // parâmetrosToolStripMenuItem2
             // 
             this.parâmetrosToolStripMenuItem2.Name = "parâmetrosToolStripMenuItem2";
-            this.parâmetrosToolStripMenuItem2.Size = new System.Drawing.Size(180, 22);
+            this.parâmetrosToolStripMenuItem2.Size = new System.Drawing.Size(188, 22);
             this.parâmetrosToolStripMenuItem2.Text = "Parâmetros";
             // 
             // layoutToolStripMenuItem1
@@ -461,7 +461,7 @@ namespace NovoPDV
             this.etiquetaToolStripMenuItem1,
             this.romaneioToolStripMenuItem1});
             this.layoutToolStripMenuItem1.Name = "layoutToolStripMenuItem1";
-            this.layoutToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
+            this.layoutToolStripMenuItem1.Size = new System.Drawing.Size(188, 22);
             this.layoutToolStripMenuItem1.Text = "Layout";
             // 
             // etiquetaToolStripMenuItem1
@@ -539,7 +539,7 @@ namespace NovoPDV
             // reajusteDeEstoqueEmMassaToolStripMenuItem
             // 
             this.reajusteDeEstoqueEmMassaToolStripMenuItem.Name = "reajusteDeEstoqueEmMassaToolStripMenuItem";
-            this.reajusteDeEstoqueEmMassaToolStripMenuItem.Size = new System.Drawing.Size(235, 22);
+            this.reajusteDeEstoqueEmMassaToolStripMenuItem.Size = new System.Drawing.Size(246, 22);
             this.reajusteDeEstoqueEmMassaToolStripMenuItem.Text = "Reajuste de Estoque em Massa";
             // 
             // reajusteDeEstoquePorProdutoToolStripMenuItem
@@ -601,7 +601,7 @@ namespace NovoPDV
 
         private System.Windows.Forms.MenuStrip menuStrip1;
         private System.Windows.Forms.ToolStripMenuItem inícioToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem loginToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem AlterarUsuarioToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem sairToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cadastroToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem caixaToolStripMenuItem;

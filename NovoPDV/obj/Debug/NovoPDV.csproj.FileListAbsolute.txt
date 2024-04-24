@@ -9,7 +9,6 @@ C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.exe
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.pdb
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmLogin.resources
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmMenu.resources
-C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmLoginUsuario.resources
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmSuporte.resources
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmCadastroClientes.resources
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmContato.resources
@@ -54,3 +53,4 @@ C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\Interop.AcroPDFLib.d
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmInserirPedidoCompra.resources
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmPedidoCompra.resources
 C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmPosicaoCaixaSintetico.resources
+C:\Users\matheus\Desktop\Novo PDV\NovoPDV\NovoPDV\obj\Debug\NovoPDV.frmAlterarUsuario.resources
