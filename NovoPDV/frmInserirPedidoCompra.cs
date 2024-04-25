@@ -38,7 +38,6 @@ namespace NovoPDV
             if (MessageBox.Show ("Confirma a baixa do Pedido de Compra ?", "Veti PDV", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
             {
                 MessageBox.Show("Pedido baixado com sucesso !", "Veti PDV");
-                this.Close();
             }
         }
 

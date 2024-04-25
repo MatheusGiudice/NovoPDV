@@ -92,6 +92,7 @@ namespace NovoPDV
             this.pedidosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.posiçãoDeCaixaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cartaDeCorreçãoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.orçamentoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -268,6 +269,7 @@ namespace NovoPDV
             this.faturamentoToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.devoluçõesToolStripMenuItem,
             this.notasFiscaisEmitidasToolStripMenuItem,
+            this.orçamentoToolStripMenuItem,
             this.pedidosBaixadosToolStripMenuItem,
             this.pedidosDeVendaToolStripMenuItem,
             this.posiçãoDeCaixaToolStripMenuItem});
@@ -577,6 +579,13 @@ namespace NovoPDV
             this.cartaDeCorreçãoToolStripMenuItem.Text = "Carta de Correção";
             this.cartaDeCorreçãoToolStripMenuItem.Click += new System.EventHandler(this.cartaDeCorreçãoToolStripMenuItem_Click);
             // 
+            // orçamentoToolStripMenuItem
+            // 
+            this.orçamentoToolStripMenuItem.Name = "orçamentoToolStripMenuItem";
+            this.orçamentoToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.orçamentoToolStripMenuItem.Text = "Orçamento";
+            this.orçamentoToolStripMenuItem.Click += new System.EventHandler(this.orçamentoToolStripMenuItem_Click);
+            // 
             // frmMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -663,5 +672,6 @@ namespace NovoPDV
         private System.Windows.Forms.ToolStripMenuItem pedidosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem posiçãoDeCaixaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem cartaDeCorreçãoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem orçamentoToolStripMenuItem;
     }
 }

@@ -194,5 +194,11 @@ namespace NovoPDV
             frmNotasFiscaisCanceladas _notasFiscaisCanceladas = new frmNotasFiscaisCanceladas();
             _notasFiscaisCanceladas.ShowDialog();
         }
+
+        private void orçamentoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmOrcamento _orcamento = new frmOrcamento();
+            _orcamento.ShowDialog();
+        }
     }
 }
